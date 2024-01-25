@@ -1,6 +1,26 @@
 body{
-    background-color:rgba(25, 34, 33, 0.555);
+    background-color: bisque;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
-    color:rgb(9, 9, 31)
+    color:rgb(27, 77, 117)
+}
+
+header {
+    background-color:rgb(230, 176, 110);
+}
+
+header a{
+    color:rgb(95, 162, 238);
+    text-decoration:overline
+}
+
+
+article a {
+    color:rgb(8, 69, 122);
+    background-color: rgb(168, 124, 124);
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(126, 74, 11);
+    color: black;
 }
