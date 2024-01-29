@@ -1,26 +1,55 @@
-body{
-    background-color: bisque;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
-    color:rgb(27, 77, 117)
-}
+    *{
+        margin: 0;
+    }
+    body{
+    background-color:rgb(38, 225, 231);
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px; 
+    color:rgb(8, 8, 8) 
+    }
+    .topo{
+        background-color: rgb(164, 235, 240);
+        padding: 30px;
+    }
+    .topo a{
+        color:rgb(78, 130, 226);
+        text-decoration: none;
+    }
+    .botao {
+        background-color: rgb(171, 232, 241);
+        color: rgb(8, 8, 8);
+        text-decoration:none;
+        padding: 30px;
+    }
+    .rodape{
+        background-color: rgb(107, 240, 240);
+        color: rgb(8, 8, 8);
+        padding: 30px;
+    }
 
-header {
-    background-color:rgb(230, 176, 110);
-}
+    .menu{
+        display: flex;
+        list-style:none;
+        margin-left: auto;
+    }
 
-header a{
-    color:rgb(95, 162, 238);
-    text-decoration:overline
-}
+    .menu a:hover {
+        color:black;
+    }
 
+    .menu li{
+        margin-right: 20px;
+    }
 
-article a {
-    color:rgb(8, 69, 122);
-    background-color: rgb(168, 124, 124);
-    text-decoration: none;
-}
-footer{
-    background-color: rgb(126, 74, 11);
-    color: black;
-}
+    .materia{
+        background-color: rgb(17, 182, 204);
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    .navegacao{
+        display: flex;
+    }
+    
+    main{
+        padding: 30px;
+    }
