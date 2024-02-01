@@ -1,88 +1,94 @@
-    *{
-        margin: 0;
-    }
-    body{
-    background-color:rgb(38, 225, 231);
-    font-family: 'Times New Roman', Times, serif; 
-    font-size: 18px; 
-    color:rgb(8, 8, 8) 
-    }
-    .topo{
-        background-color: rgb(164, 235, 240);
-        padding: 30px;
-    }
-    .topo a{
-        color:rgb(78, 130, 226);
-        text-decoration: none;
-    }
-    .botao {
-        background-color: rgb(171, 232, 241);
-        color: rgb(8, 8, 8);
-        text-decoration:none;
-        padding: 30px;
-        display: inline;
-    }
-    .rodape{
-        background-color: rgb(107, 240, 240);
-        color: rgb(8, 8, 8);
-        padding: 30px;
-        text-align: center;
-    }
+        *{
+            margin: 0;
+        }
+        body{
+        background-color:rgb(38, 225, 231);
+        font-family: 'Times New Roman', Times, serif; 
+        font-size: 18px; 
+        color:rgb(8, 8, 8) 
+        }
+        .topo{
+            background-color: rgb(164, 235, 240);
+            padding: 30px;
+        }
+        .topo a{
+            color:rgb(78, 130, 226);
+            text-decoration: none;
+        }
+        .botao {
+            background-color: rgb(171, 232, 241);
+            color: rgb(8, 8, 8);
+            text-decoration:none;
+            padding: 30px;
+            display: inline;
+            border-radius: 100px;
+        }
+        .rodape{
+            background-color: rgb(107, 240, 240);
+            color: rgb(8, 8, 8);
+            padding: 30px;
+            text-align: center;
+        }
 
-    .menu{
-        display: flex;
-        list-style:none;
-        margin-left: auto;
-    }
+        .menu{
+            display: flex;
+            list-style:none;
+            margin-left: auto;
+        }
 
-    .menu a:hover {
-        color:black;
-    }
+        .menu a:hover {
+            color:black;
+        }
 
-    .menu li{
-        margin-right: 30px;
-    }
+        .menu li{
+            margin-right: 30px;
+        }
 
-    .materia{
-        background-color: rgb(17, 182, 204);
-        padding: 30px;
-        margin-bottom: 30px;
-        width: 600px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
+        .materia{
+            background-color: rgb(17, 182, 204);
+            padding: 30px;
+            margin-bottom: 30px;
+            width: 600px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-    .materia img{
-        width: 100%;
-        margin-bottom: 30px;
-    }
+        .materia img{
+            width: 600px;
+            margin-bottom: 30px;
+        }
 
-    .materia h1{
-        margin-bottom: 10px;
-        font-size: 30px;
-    }
+        .materia h1{
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
 
-    .navegacao{
-        display: flex;
-    }
-    .botao:hover{
-        color:rgb(85, 148, 148);
+        .navegacao{
+            display: flex;
+        }
+        .botao:hover{
+            color:rgb(85, 148, 148);
+        }
 
-    }
-    .titulo{
-        text-align: center;
-        margin-bottom: 10px;
-        font-size: 40px;
-    }
 
-    .texto{
-        text-align:center;
-        margin-bottom: 30px;
-        font-size: 28px;
-        color: rgb(0, 0, 0);
-    }
+        .titulo{
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 40px;
+        }
 
-    main{
-        padding: 30px;
-    }
+        .texto{
+            text-align:center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            color: rgb(0, 0, 0);
+        }
+       .grade{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(700px,1fr));
+        gap: 20px;
+       }
+        main{
+            padding: 30px;
+        }
