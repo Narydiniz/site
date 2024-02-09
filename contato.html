@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
     <link href="estilo.css" rel="stylesheet">
     <!--Link cria vinculo através href-->
     <title>Life Goals</title>
@@ -21,20 +21,20 @@
         </header>
  <main>       
     <!--Corpo do site-->
-        <h1 class="titulo">contato</h1> 
-        <p class="texto">Todo dia e toda hora uma frase pra te fazer levatar do sofá e se mexer.</p>
+        <h1 class="titulo">Contato</h1> 
+        <p class="texto">Os campos com * são de preenchimento obrigatório!</p>
 
       <!--Corpo do formulario-->  
       <form class="contato">
         <!--Campos do formulario-->
         <label class="rotulo">
-           Nome 
-           <input type="text" class="campo">
+           Nome*
+           <input type="text" class="campo" required>
         </label>
 
        <label class="rotulo">
-         E-mail
-         <input type="text" class="campo">
+         E-mail*
+         <input type="text" class="campo" required>
        </label>
 
        <!--Campo de assunto com opções-->
@@ -49,8 +49,8 @@
 
      <!--Campo Mensagem-->
        <label class="rotulo">
-            Mensagem
-            <textarea class="campo"></textarea>
+            Mensagem*
+            <textarea class="campo" required></textarea>
        </label>
        <!--Botão de enviar-->
        <button class="botao">Enviar</button>
